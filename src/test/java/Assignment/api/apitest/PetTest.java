@@ -3,6 +3,7 @@ package Assignment.api.apitest;
 import Assignment.api.models.Category;
 import Assignment.api.models.CreatePet;
 import Assignment.api.models.GoRestService;
+import org.junit.Ignore;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
@@ -72,9 +73,11 @@ public class PetTest {
                 .then()
                 .statusCode(200)
                 .body("id",equalTo(updatePetModel.getId()))
+                .log().all()
                 .body("name",equalTo(updatePetModel.getName()));
 
     }
+
 
     @Test
     @Order(4)
