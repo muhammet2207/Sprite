@@ -1,0 +1,349 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1922683400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user goes to website",
+            "match": {
+              "location": "Assignment.step_definitions.AjaxDataStepDefs.the_user_goes_to_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-08T22:13:56.019Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14121585800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Assignment.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "AJAX Data - Waits for label text to appear",
+        "description": "",
+        "id": "ajax-data--scrollbars--mouse-over;ajax-data---waits-for-label-text-to-appear",
+        "after": [
+          {
+            "result": {
+              "duration": 2869483700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Assignment.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1239983800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks \"AJAX Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AJAX Data\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Assignment.step_definitions.AjaxDataStepDefs.the_user_clicks(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15855777200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user clicks Button Triggering Ajax Request button",
+            "match": {
+              "location": "Assignment.step_definitions.AjaxDataStepDefs.the_user_clicks_Button_Triggering_Ajax_Request_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78975200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user should be able to see label text \"Data loaded with AJAX get request.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Data loaded with AJAX get request.\"",
+                  "offset": 42
+                }
+              ],
+              "location": "Assignment.step_definitions.AjaxDataStepDefs.the_user_should_be_able_to_see_label_text(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1846579100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user goes to website",
+            "match": {
+              "location": "Assignment.step_definitions.AjaxDataStepDefs.the_user_goes_to_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-08T22:14:32.376Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3971263600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Assignment.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "ScrollBars - Scroll the button into a visible area",
+        "description": "",
+        "id": "ajax-data--scrollbars--mouse-over;scrollbars---scroll-the-button-into-a-visible-area",
+        "after": [
+          {
+            "result": {
+              "duration": 1412784400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Assignment.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2587979200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user clicks \"Scrollbars\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Scrollbars\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Assignment.step_definitions.AjaxDataStepDefs.the_user_clicks(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92970800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user scrolls till the Hiding Button appears",
+            "match": {
+              "location": "Assignment.step_definitions.ScrollBarsStepDefs.the_user_scrolls_till_the_Hiding_Button_appears()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 265914500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user should be able to clicks the Hiding Button",
+            "match": {
+              "location": "Assignment.step_definitions.ScrollBarsStepDefs.the_user_should_be_able_to_clicks_the_Hiding_Button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1480062200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user goes to website",
+            "match": {
+              "location": "Assignment.step_definitions.AjaxDataStepDefs.the_user_goes_to_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-08T22:14:42.597Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3490460700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Assignment.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Mouse Over - Make sure that click count is increasing by 2",
+        "description": "",
+        "id": "ajax-data--scrollbars--mouse-over;mouse-over---make-sure-that-click-count-is-increasing-by-2",
+        "after": [
+          {
+            "result": {
+              "duration": 1266708800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Assignment.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 856343200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user clicks \"Mouse Over\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mouse Over\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Assignment.step_definitions.AjaxDataStepDefs.the_user_clicks(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 768833800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user hover over on Click Me button",
+            "match": {
+              "location": "Assignment.step_definitions.MouseOverStepDefs.the_user_hover_over_on_Click_Me_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 211810400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user applies two consecutive link clicks to Click Me button",
+            "match": {
+              "location": "Assignment.step_definitions.MouseOverStepDefs.the_user_applies_consecutive_link_clicks_to_Click_Me_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120960700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user verifies click count is increasing by 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 47
+                }
+              ],
+              "location": "Assignment.step_definitions.MouseOverStepDefs.theUserVerifiesClickCountIsIncreasingBy(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Ajax Data, ScrollBars, Mouse Over",
+    "description": "",
+    "id": "ajax-data--scrollbars--mouse-over",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SpriteCloudUI.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
