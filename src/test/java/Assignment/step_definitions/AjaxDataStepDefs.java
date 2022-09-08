@@ -7,7 +7,6 @@ import Assignment.utilities.Driver;
 import io.cucumber.java.en.*;
 import static org.junit.Assert.*;
 
-
 public class AjaxDataStepDefs {
 
     AjaxDataPage ajaxDataPage = new AjaxDataPage();
@@ -26,7 +25,7 @@ public class AjaxDataStepDefs {
     @When("the user clicks Button Triggering Ajax Request button")
     public void the_user_clicks_Button_Triggering_Ajax_Request_button() {
         ajaxDataPage.ajaxButton.click();
-        basePage.getWait(ajaxDataPage.ajaxTextBox);
+        basePage.waitForVisibility(ajaxDataPage.ajaxTextBox);
 
     }
 

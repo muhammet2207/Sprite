@@ -5,8 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
-public class MouseOverPage extends BasePage{
-    Actions actions=new Actions(Driver.get());
+public class MouseOverPage extends BasePage {
+    Actions actions = new Actions(Driver.get());
 
     @FindBy(xpath = "//a[text()='Click me']")
     public WebElement clickMeButton;
@@ -14,10 +14,11 @@ public class MouseOverPage extends BasePage{
     @FindBy(xpath = "//span[@id='clickCount']")
     public WebElement clickCount;
 
-    public void hoverOver(WebElement element){
+    public void hoverOver(WebElement element) {
         actions.moveToElement(element).perform();
     }
-    public void doubleClick(WebElement element){
+
+    public void doubleClick(WebElement element) {
         actions.doubleClick(element).perform();
     }
 }
