@@ -10,7 +10,6 @@ import static org.junit.Assert.*;
 public class AjaxDataStepDefs {
 
     AjaxDataPage ajaxDataPage = new AjaxDataPage();
-    BasePage basePage=new BasePage();
 
     @Given("the user goes to website")
     public void the_user_goes_to_website() {
@@ -25,7 +24,7 @@ public class AjaxDataStepDefs {
     @When("the user clicks Button Triggering Ajax Request button")
     public void the_user_clicks_Button_Triggering_Ajax_Request_button() {
         ajaxDataPage.ajaxButton.click();
-        basePage.waitForVisibility(ajaxDataPage.ajaxTextBox);
+        ajaxDataPage.waitForVisibility(ajaxDataPage.ajaxTextBox);
 
     }
 
