@@ -7,6 +7,7 @@ import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -48,7 +49,6 @@ public class PetTest {
                 .then()
                 .statusCode(200)
                 .body("id", equalTo(id));
-
     }
 
     @Test
@@ -60,7 +60,7 @@ public class PetTest {
         category.setName("Birds");
 
         CreatePet updatePetModel = new CreatePet();
-        updatePetModel.setId(1);
+        updatePetModel.setId(id);
         updatePetModel.setName("Eagle");
         updatePetModel.setStatus("Available");
         updatePetModel.setPhotoUrls(new ArrayList<>(Arrays.asList("https://www.britannica.com/animal/bald-eagle", "https://www.birdlife.org/birds/eagle/")));
@@ -81,7 +81,6 @@ public class PetTest {
                 .then()
                 .statusCode(200)
                 .body("message", equalTo(String.valueOf(id)));
-
     }
 }
 
